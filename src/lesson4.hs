@@ -19,9 +19,9 @@ inc n = n + 1
 double n = n * 2
 square n = n^2
 
-ifEvenInc n = ifEven inc n
-ifEvenDouble n = ifEven double n
-ifEvenSqueare n = ifEven square n
+ifEvenInc = ifEven inc
+ifEvenDouble = ifEven double
+ifEvenSqueare = ifEven square
 
 -- ifEven (\x -> x^3) 6
 
